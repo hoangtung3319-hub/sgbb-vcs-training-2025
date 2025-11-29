@@ -936,3 +936,739 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2025.11.29-15.09.41:091][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2025.11.29-15.09.41:121][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
 [2025.11.29-15.09.41:159][  8]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.11.29-15.11.23:033][478]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.11.23:039][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.29-15.11.23:039][478]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:11:23 AM)
+[2025.11.29-15.11.23:066][478]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.11.23:090][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025054s)
+[2025.11.29-15.11.23:090][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.025215s)
+[2025.11.29-15.11.23:090][478]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.11.23:090][478]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.11.23:091][478]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.11.23:091][478]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2025.11.29-15.11.23:103][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.11.29-15.11.23:104][478]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.11.29-15.11.23:104][478]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.11.23:104][478]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.11.23:104][478]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.11.23:104][478]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.11.23:104][478]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.11.23:104][478]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.11.23:104][478]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.11.23:104][478]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.11.23:105][478]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.11.23:105][478]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.11.23:105][478]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.11.23:107][478]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.11.23:146][478]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.11.23:146][478]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.11.23:146][478]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.11.23:146][478]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.11.23:147][478]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.11.29-15.11.23:147][478]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.11.29-15.11.23:148][478]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.11.29-15.11.23:148][478]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.11.29-15.11.23:148][478]LogInit: FAudioDevice initialized.
+[2025.11.29-15.11.23:148][478]LogAudio: Display: Audio Device (ID: 3) registered with world 'VictorianOffice'.
+[2025.11.29-15.11.23:163][478]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.11.23:171][478]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.11.23
+[2025.11.29-15.11.23:171][478]LogWorld: Bringing up level for play took: 0.008099
+[2025.11.29-15.11.23:173][478]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2025.11.29-15.11.23:177][478]PIE: Server logged in
+[2025.11.29-15.11.23:178][478]PIE: Play in editor total start time 0.138 seconds.
+[2025.11.29-15.11.32:726][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.11.32:726][406]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.11.32:726][406]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.11.32:728][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.11.32:747][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.11.32:748][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.11.32:760][406]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.29-15.11.32:760][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.11.29-15.11.32:762][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.11.29-15.11.32:766][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.11.32:773][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.11.29-15.11.32:827][407]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2025.11.29-15.11.42:347][169]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.11.29-15.11.42:347][169]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.11.43:361][169]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.11.29-15.11.47:186][500]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.13.12:617][414]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.13.37:490][225]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.11.29-15.14.40:332][732]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.14.40:339][732]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.14.40:340][732]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.14.40:446][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.11.29-15.14.40:446][732]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2025.11.29-15.14.40:446][732]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:14:40 AM)
+[2025.11.29-15.14.40:447][732]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.14.40:463][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017311s)
+[2025.11.29-15.14.40:464][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.017402s)
+[2025.11.29-15.14.40:464][732]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.14.40:464][732]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.14.40:464][732]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.14.40:465][732]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2025.11.29-15.14.40:495][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.11.29-15.14.40:496][732]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.11.29-15.14.40:496][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.14.40:496][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.14.40:496][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.14.40:496][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.14.40:496][732]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.14.40:496][732]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.14.40:496][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.14.40:496][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.14.40:496][732]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.14.40:496][732]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.14.40:496][732]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.14.40:499][732]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.14.40:544][732]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.14.40:544][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.14.40:544][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.14.40:544][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.14.40:546][732]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.11.29-15.14.40:546][732]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.11.29-15.14.40:548][732]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.11.29-15.14.40:548][732]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.11.29-15.14.40:549][732]LogInit: FAudioDevice initialized.
+[2025.11.29-15.14.40:549][732]LogAudio: Display: Audio Device (ID: 4) registered with world 'VictorianOffice'.
+[2025.11.29-15.14.40:570][732]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.14.40:580][732]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.14.40
+[2025.11.29-15.14.40:580][732]LogWorld: Bringing up level for play took: 0.009292
+[2025.11.29-15.14.40:582][732]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.11.29-15.14.40:588][732]PIE: Server logged in
+[2025.11.29-15.14.40:589][732]PIE: Play in editor total start time 0.25 seconds.
+[2025.11.29-15.16.20:382][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.16.20:383][630]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.16.20:383][630]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.16.20:385][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.16.20:416][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.16.20:427][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.16.20:500][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.16.20:500][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.11.29-15.16.20:504][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.11.29-15.16.20:517][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.11.29-15.16.20:560][631]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.11.29-15.16.29:955][413]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.16.29:961][413]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.16.29:963][413]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.16.30:062][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.11.29-15.16.30:063][413]LogPlayLevel: PlayLevel: Blueprint regeneration took 101 ms (1 blueprints)
+[2025.11.29-15.16.30:063][413]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:16:30 AM)
+[2025.11.29-15.16.30:063][413]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.16.30:080][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016882s)
+[2025.11.29-15.16.30:080][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.016954s)
+[2025.11.29-15.16.30:080][413]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.16.30:080][413]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.16.30:081][413]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.16.30:081][413]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2025.11.29-15.16.30:114][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.11.29-15.16.30:114][413]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.11.29-15.16.30:115][413]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.16.30:115][413]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.16.30:115][413]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.16.30:115][413]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.16.30:115][413]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.16.30:115][413]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.16.30:115][413]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.16.30:115][413]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.16.30:115][413]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.16.30:115][413]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.16.30:115][413]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.16.30:117][413]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.16.30:156][413]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.16.30:157][413]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.16.30:157][413]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.16.30:157][413]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.16.30:158][413]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.11.29-15.16.30:158][413]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.11.29-15.16.30:159][413]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.11.29-15.16.30:159][413]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.11.29-15.16.30:159][413]LogInit: FAudioDevice initialized.
+[2025.11.29-15.16.30:159][413]LogAudio: Display: Audio Device (ID: 5) registered with world 'VictorianOffice'.
+[2025.11.29-15.16.30:169][413]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.16.30:177][413]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.16.30
+[2025.11.29-15.16.30:177][413]LogWorld: Bringing up level for play took: 0.006657
+[2025.11.29-15.16.30:179][413]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2025.11.29-15.16.30:182][413]PIE: Server logged in
+[2025.11.29-15.16.30:183][413]PIE: Play in editor total start time 0.222 seconds.
+[2025.11.29-15.16.34:532][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.16.34:533][809]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.16.34:533][809]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.16.34:535][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.16.34:574][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.16.34:584][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.16.34:653][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.16.34:654][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.11.29-15.16.34:656][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.11.29-15.16.34:671][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2025.11.29-15.16.34:718][810]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.11.29-15.17.46:364][687]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.17.54:849][599]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2025.11.29-15.17.54:879][599]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.11.29-15.18.49:503][380]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.11.29-15.18.49:504][380]LogSavePackage: Moving 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Saved/BP_ThirdPersonCharacterF31258C1460D48F9BEB957BE5ADEC268.tmp' to 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.11.29-15.18.49:523][380]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.11.29-15.18.49:523][380]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.11.29-15.18.51:813][563]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.18.51:819][563]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.18.51:819][563]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.18.51:931][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.11.29-15.18.51:932][563]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (1 blueprints)
+[2025.11.29-15.18.51:932][563]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:18:51 AM)
+[2025.11.29-15.18.51:980][563]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.18.52:005][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024109s)
+[2025.11.29-15.18.52:005][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.024266s)
+[2025.11.29-15.18.52:005][563]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.18.52:005][563]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.18.52:005][563]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.18.52:006][563]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2025.11.29-15.18.52:038][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.11.29-15.18.52:040][563]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.11.29-15.18.52:040][563]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.18.52:040][563]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.18.52:040][563]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.18.52:040][563]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.18.52:040][563]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.18.52:040][563]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.18.52:040][563]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.18.52:040][563]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.18.52:040][563]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.18.52:040][563]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.18.52:040][563]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.18.52:042][563]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.18.52:083][563]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.18.52:083][563]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.18.52:083][563]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.18.52:083][563]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.18.52:084][563]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.11.29-15.18.52:084][563]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.11.29-15.18.52:085][563]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.11.29-15.18.52:085][563]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.11.29-15.18.52:085][563]LogInit: FAudioDevice initialized.
+[2025.11.29-15.18.52:085][563]LogAudio: Display: Audio Device (ID: 6) registered with world 'VictorianOffice'.
+[2025.11.29-15.18.52:102][563]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.18.52:111][563]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.18.52
+[2025.11.29-15.18.52:112][563]LogWorld: Bringing up level for play took: 0.009096
+[2025.11.29-15.18.52:114][563]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.11.29-15.18.52:117][563]PIE: Server logged in
+[2025.11.29-15.18.52:117][563]PIE: Play in editor total start time 0.299 seconds.
+[2025.11.29-15.19.20:500][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.19.20:500][374]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.19.20:501][374]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.19.20:502][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.19.20:519][374]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.19.20:529][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.19.20:595][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.19.20:596][374]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.11.29-15.19.20:598][374]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.11.29-15.19.20:617][374]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2025.11.29-15.19.20:669][375]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.11.29-15.19.25:933][837]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.19.27:757][947]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.11.29-15.19.58:240][982]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.20.23:543][598]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.20.23:549][598]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.20.23:550][598]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.20.23:647][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.11.29-15.20.23:647][598]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (1 blueprints)
+[2025.11.29-15.20.23:647][598]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:20:23 AM)
+[2025.11.29-15.20.23:669][598]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.20.23:695][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025519s)
+[2025.11.29-15.20.23:695][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.025694s)
+[2025.11.29-15.20.23:695][598]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.20.23:695][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.20.23:696][598]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.20.23:696][598]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2025.11.29-15.20.23:730][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.11.29-15.20.23:731][598]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.11.29-15.20.23:731][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.20.23:731][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.20.23:731][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.20.23:731][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.20.23:731][598]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.20.23:731][598]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.20.23:731][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.20.23:731][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.20.23:732][598]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.20.23:732][598]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.20.23:732][598]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.20.23:734][598]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.20.23:774][598]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.20.23:775][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.20.23:775][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.20.23:775][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.20.23:776][598]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.11.29-15.20.23:776][598]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.11.29-15.20.23:777][598]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.11.29-15.20.23:777][598]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.11.29-15.20.23:777][598]LogInit: FAudioDevice initialized.
+[2025.11.29-15.20.23:777][598]LogAudio: Display: Audio Device (ID: 7) registered with world 'VictorianOffice'.
+[2025.11.29-15.20.23:787][598]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.20.23:795][598]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.20.23
+[2025.11.29-15.20.23:795][598]LogWorld: Bringing up level for play took: 0.007897
+[2025.11.29-15.20.23:797][598]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.11.29-15.20.23:803][598]PIE: Server logged in
+[2025.11.29-15.20.23:804][598]PIE: Play in editor total start time 0.255 seconds.
+[2025.11.29-15.20.31:161][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.20.31:161][294]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.20.31:162][294]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.20.31:166][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.20.31:213][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.20.31:225][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.20.31:301][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.20.31:303][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.11.29-15.20.31:305][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.11.29-15.20.31:314][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.11.29-15.20.31:360][295]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.11.29-15.20.34:027][514]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.11.29-15.20.34:027][514]LogSavePackage: Moving 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Saved/BP_ThirdPersonCharacter0BDCF50340C613173F9B4DA78A92B48E.tmp' to 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.11.29-15.20.34:048][514]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.11.29-15.20.34:048][514]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.11.29-15.20.35:683][656]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.20.35:689][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.29-15.20.35:689][656]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:20:35 AM)
+[2025.11.29-15.20.35:719][656]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.20.35:743][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023076s)
+[2025.11.29-15.20.35:743][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.023230s)
+[2025.11.29-15.20.35:743][656]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.20.35:743][656]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.20.35:744][656]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.20.35:744][656]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2025.11.29-15.20.35:773][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.11.29-15.20.35:774][656]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.11.29-15.20.35:774][656]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.20.35:774][656]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.20.35:774][656]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.20.35:774][656]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.20.35:774][656]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.20.35:774][656]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.20.35:774][656]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.20.35:774][656]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.20.35:775][656]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.20.35:775][656]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.20.35:775][656]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.20.35:777][656]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.20.35:820][656]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.20.35:820][656]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.20.35:820][656]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.20.35:820][656]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.20.35:821][656]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.11.29-15.20.35:821][656]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.11.29-15.20.35:823][656]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.11.29-15.20.35:823][656]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.11.29-15.20.35:823][656]LogInit: FAudioDevice initialized.
+[2025.11.29-15.20.35:823][656]LogAudio: Display: Audio Device (ID: 8) registered with world 'VictorianOffice'.
+[2025.11.29-15.20.35:842][656]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.20.35:849][656]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.20.35
+[2025.11.29-15.20.35:849][656]LogWorld: Bringing up level for play took: 0.007223
+[2025.11.29-15.20.35:851][656]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.11.29-15.20.35:855][656]PIE: Server logged in
+[2025.11.29-15.20.35:855][656]PIE: Play in editor total start time 0.167 seconds.
+[2025.11.29-15.20.45:320][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.20.45:320][564]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.20.45:320][564]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.20.45:322][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.20.45:351][564]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.20.45:356][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.20.45:419][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.20.45:422][564]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.11.29-15.20.45:424][564]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.11.29-15.20.45:433][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.11.29-15.20.45:481][565]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.11.29-15.20.48:955][846]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.21.05:500][834]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.21.23:912][149]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.22.33:959][394]LogEditorTransaction: Undo Edit Max Step Height
+[2025.11.29-15.23.09:387][873]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.11.29-15.23.09:387][873]LogSavePackage: Moving 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Saved/BP_ThirdPersonCharacter4532453B462E9BB9C4728DA963CAE4A8.tmp' to 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.11.29-15.23.09:407][873]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.11.29-15.23.09:407][873]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.11.29-15.23.12:039][ 90]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.23.12:045][ 90]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.23.12:047][ 90]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.23.12:146][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.11.29-15.23.12:147][ 90]LogPlayLevel: PlayLevel: Blueprint regeneration took 101 ms (1 blueprints)
+[2025.11.29-15.23.12:147][ 90]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:23:12 AM)
+[2025.11.29-15.23.12:148][ 90]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.23.12:165][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017277s)
+[2025.11.29-15.23.12:165][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.017358s)
+[2025.11.29-15.23.12:165][ 90]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.23.12:166][ 90]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.23.12:166][ 90]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.23.12:166][ 90]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2025.11.29-15.23.12:197][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.11.29-15.23.12:197][ 90]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.11.29-15.23.12:197][ 90]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.23.12:197][ 90]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.23.12:197][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.23.12:197][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.23.12:197][ 90]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.23.12:197][ 90]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.23.12:197][ 90]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.23.12:197][ 90]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.23.12:197][ 90]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.23.12:197][ 90]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.23.12:197][ 90]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.23.12:199][ 90]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.23.12:238][ 90]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.23.12:238][ 90]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.23.12:238][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.23.12:238][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.23.12:239][ 90]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.11.29-15.23.12:239][ 90]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.11.29-15.23.12:240][ 90]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.11.29-15.23.12:240][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.11.29-15.23.12:240][ 90]LogInit: FAudioDevice initialized.
+[2025.11.29-15.23.12:240][ 90]LogAudio: Display: Audio Device (ID: 9) registered with world 'VictorianOffice'.
+[2025.11.29-15.23.12:256][ 90]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.23.12:268][ 90]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.23.12
+[2025.11.29-15.23.12:268][ 90]LogWorld: Bringing up level for play took: 0.011826
+[2025.11.29-15.23.12:272][ 90]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.11.29-15.23.12:281][ 90]PIE: Server logged in
+[2025.11.29-15.23.12:283][ 90]PIE: Play in editor total start time 0.238 seconds.
+[2025.11.29-15.23.17:618][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.23.17:618][592]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.23.17:618][592]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.23.17:619][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.23.17:633][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.23.17:636][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.23.17:696][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.23.17:697][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.11.29-15.23.17:700][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.11.29-15.23.17:719][592]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2025.11.29-15.23.17:769][593]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.11.29-15.23.30:689][825]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.23.30:696][825]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.23.30:697][825]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.23.30:805][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.11.29-15.23.30:805][825]LogPlayLevel: PlayLevel: Blueprint regeneration took 110 ms (1 blueprints)
+[2025.11.29-15.23.30:805][825]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:23:30 AM)
+[2025.11.29-15.23.30:805][825]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.23.30:824][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017610s)
+[2025.11.29-15.23.30:824][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.017693s)
+[2025.11.29-15.23.30:824][825]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.23.30:824][825]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.23.30:825][825]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.23.30:825][825]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2025.11.29-15.23.30:851][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.11.29-15.23.30:851][825]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.11.29-15.23.30:851][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.23.30:851][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.23.30:852][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.23.30:852][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.23.30:852][825]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.23.30:852][825]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.23.30:852][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.23.30:852][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.23.30:852][825]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.23.30:852][825]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.23.30:852][825]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.23.30:854][825]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.23.30:891][825]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.23.30:891][825]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.23.30:891][825]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.23.30:891][825]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.23.30:892][825]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.11.29-15.23.30:892][825]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.11.29-15.23.30:893][825]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.11.29-15.23.30:893][825]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.11.29-15.23.30:893][825]LogInit: FAudioDevice initialized.
+[2025.11.29-15.23.30:893][825]LogAudio: Display: Audio Device (ID: 10) registered with world 'VictorianOffice'.
+[2025.11.29-15.23.30:909][825]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.23.30:915][825]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.23.30
+[2025.11.29-15.23.30:916][825]LogWorld: Bringing up level for play took: 0.006618
+[2025.11.29-15.23.30:917][825]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.11.29-15.23.30:920][825]PIE: Server logged in
+[2025.11.29-15.23.30:921][825]PIE: Play in editor total start time 0.226 seconds.
+[2025.11.29-15.23.42:067][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.23.42:067][932]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.23.42:068][932]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.23.42:069][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.23.42:089][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.23.42:097][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.23.42:163][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.23.42:164][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.11.29-15.23.42:166][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.11.29-15.23.42:178][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.11.29-15.23.42:225][933]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.11.29-15.23.56:321][ 49]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.23.56:327][ 49]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.23.56:328][ 49]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.23.56:433][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.11.29-15.23.56:434][ 49]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2025.11.29-15.23.56:434][ 49]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:23:56 AM)
+[2025.11.29-15.23.56:467][ 49]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.23.56:491][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023685s)
+[2025.11.29-15.23.56:491][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.023846s)
+[2025.11.29-15.23.56:491][ 49]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.23.56:492][ 49]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.23.56:492][ 49]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.23.56:492][ 49]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2025.11.29-15.23.56:525][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.11.29-15.23.56:525][ 49]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.11.29-15.23.56:525][ 49]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.23.56:525][ 49]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.23.56:525][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.23.56:526][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.23.56:526][ 49]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.23.56:526][ 49]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.23.56:526][ 49]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.23.56:526][ 49]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.23.56:526][ 49]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.23.56:526][ 49]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.23.56:526][ 49]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.23.56:528][ 49]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.23.56:571][ 49]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.23.56:571][ 49]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.23.56:571][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.23.56:571][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.23.56:571][ 49]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.11.29-15.23.56:571][ 49]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.11.29-15.23.56:573][ 49]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.11.29-15.23.56:573][ 49]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.11.29-15.23.56:573][ 49]LogInit: FAudioDevice initialized.
+[2025.11.29-15.23.56:573][ 49]LogAudio: Display: Audio Device (ID: 11) registered with world 'VictorianOffice'.
+[2025.11.29-15.23.56:588][ 49]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.23.56:596][ 49]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.23.56
+[2025.11.29-15.23.56:597][ 49]LogWorld: Bringing up level for play took: 0.009079
+[2025.11.29-15.23.56:600][ 49]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.11.29-15.23.56:605][ 49]PIE: Server logged in
+[2025.11.29-15.23.56:605][ 49]PIE: Play in editor total start time 0.278 seconds.
+[2025.11.29-15.24.54:707][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.24.54:707][706]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.24.54:708][706]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.24.54:709][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.24.54:740][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.24.54:751][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.24.54:789][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.24.54:791][706]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.11.29-15.24.54:792][706]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.11.29-15.24.54:803][706]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2025.11.29-15.24.54:858][707]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.11.29-15.24.59:202][ 84]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2025.11.29-15.25.28:153][138]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.25.28:159][138]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.25.28:160][138]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.25.28:262][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.11.29-15.25.28:264][138]LogPlayLevel: PlayLevel: Blueprint regeneration took 105 ms (1 blueprints)
+[2025.11.29-15.25.28:264][138]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:25:28 AM)
+[2025.11.29-15.25.28:264][138]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.25.28:284][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019034s)
+[2025.11.29-15.25.28:284][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.019112s)
+[2025.11.29-15.25.28:284][138]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.25.28:284][138]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.25.28:284][138]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.25.28:284][138]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2025.11.29-15.25.28:318][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.11.29-15.25.28:318][138]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.11.29-15.25.28:318][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.25.28:318][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.25.28:318][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.25.28:318][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.25.28:318][138]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.25.28:318][138]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.25.28:318][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.25.28:318][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.25.28:319][138]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.25.28:319][138]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.25.28:319][138]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.25.28:322][138]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.25.28:362][138]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.25.28:363][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.25.28:363][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.25.28:363][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.25.28:364][138]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.11.29-15.25.28:364][138]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.11.29-15.25.28:365][138]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.11.29-15.25.28:365][138]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.11.29-15.25.28:365][138]LogInit: FAudioDevice initialized.
+[2025.11.29-15.25.28:365][138]LogAudio: Display: Audio Device (ID: 12) registered with world 'VictorianOffice'.
+[2025.11.29-15.25.28:383][138]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.25.28:393][138]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.25.28
+[2025.11.29-15.25.28:393][138]LogWorld: Bringing up level for play took: 0.009406
+[2025.11.29-15.25.28:395][138]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.11.29-15.25.28:399][138]PIE: Server logged in
+[2025.11.29-15.25.28:401][138]PIE: Play in editor total start time 0.242 seconds.
+[2025.11.29-15.25.33:997][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.25.33:997][690]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.25.33:997][690]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.25.33:998][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.25.34:014][690]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.25.34:022][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.25.34:084][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.25.34:086][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.11.29-15.25.34:088][690]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.11.29-15.25.34:096][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.11.29-15.25.34:144][691]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.11.29-15.25.54:776][329]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.25.54:783][329]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.25.54:784][329]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.25.54:887][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.11.29-15.25.54:889][329]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2025.11.29-15.25.54:889][329]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:25:54 AM)
+[2025.11.29-15.25.54:889][329]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.25.54:906][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017799s)
+[2025.11.29-15.25.54:906][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.017888s)
+[2025.11.29-15.25.54:906][329]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.25.54:907][329]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.25.54:908][329]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.25.54:908][329]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2025.11.29-15.25.54:942][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.11.29-15.25.54:942][329]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.11.29-15.25.54:942][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.25.54:942][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.25.54:942][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.25.54:942][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.25.54:942][329]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.25.54:942][329]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.25.54:942][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.25.54:942][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.25.54:943][329]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.25.54:943][329]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.25.54:943][329]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.25.54:946][329]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.25.54:984][329]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.25.54:984][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.25.54:984][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.25.54:984][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.25.54:986][329]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.11.29-15.25.54:986][329]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.11.29-15.25.54:987][329]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.11.29-15.25.54:987][329]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.11.29-15.25.54:987][329]LogInit: FAudioDevice initialized.
+[2025.11.29-15.25.54:987][329]LogAudio: Display: Audio Device (ID: 13) registered with world 'VictorianOffice'.
+[2025.11.29-15.25.55:003][329]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.25.55:010][329]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.25.55
+[2025.11.29-15.25.55:011][329]LogWorld: Bringing up level for play took: 0.006742
+[2025.11.29-15.25.55:013][329]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.11.29-15.25.55:016][329]PIE: Server logged in
+[2025.11.29-15.25.55:017][329]PIE: Play in editor total start time 0.234 seconds.
+[2025.11.29-15.26.27:456][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.26.27:456][395]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.26.27:456][395]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.26.27:457][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.26.27:469][395]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.26.27:473][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.26.27:521][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.26.27:523][395]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.11.29-15.26.27:525][395]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.11.29-15.26.27:535][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.11.29-15.26.27:584][396]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.11.29-15.26.38:265][161]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.26.38:272][161]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.26.38:273][161]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.26.38:372][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.11.29-15.26.38:373][161]LogPlayLevel: PlayLevel: Blueprint regeneration took 102 ms (1 blueprints)
+[2025.11.29-15.26.38:373][161]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:26:38 AM)
+[2025.11.29-15.26.38:405][161]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.26.38:430][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024448s)
+[2025.11.29-15.26.38:430][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.024611s)
+[2025.11.29-15.26.38:430][161]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.26.38:430][161]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.26.38:430][161]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.26.38:431][161]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2025.11.29-15.26.38:474][161]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2025.11.29-15.26.38:475][161]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.11.29-15.26.38:475][161]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.26.38:475][161]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.26.38:475][161]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.26.38:475][161]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.26.38:475][161]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.26.38:475][161]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.26.38:475][161]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.26.38:475][161]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.26.38:477][161]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.26.38:477][161]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.26.38:477][161]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.26.38:482][161]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.26.38:529][161]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.26.38:529][161]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.26.38:529][161]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.26.38:530][161]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.26.38:530][161]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.11.29-15.26.38:530][161]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.11.29-15.26.38:531][161]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.11.29-15.26.38:531][161]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.11.29-15.26.38:531][161]LogInit: FAudioDevice initialized.
+[2025.11.29-15.26.38:533][161]LogAudio: Display: Audio Device (ID: 14) registered with world 'VictorianOffice'.
+[2025.11.29-15.26.38:549][161]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.26.38:556][161]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.26.38
+[2025.11.29-15.26.38:556][161]LogWorld: Bringing up level for play took: 0.006808
+[2025.11.29-15.26.38:558][161]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.11.29-15.26.38:564][161]PIE: Server logged in
+[2025.11.29-15.26.38:565][161]PIE: Play in editor total start time 0.294 seconds.
+[2025.11.29-15.27.37:005][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.27.37:005][896]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.27.37:006][896]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.27.37:008][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.27.37:037][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.27.37:048][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.27.37:108][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.27.37:109][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.11.29-15.27.37:111][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.11.29-15.27.37:126][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2025.11.29-15.27.37:182][897]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.11.29-15.28.19:288][924]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-15.28.19:295][924]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.11.29-15.28.19:296][924]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.11.29-15.28.19:389][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.11.29-15.28.19:391][924]LogPlayLevel: PlayLevel: Blueprint regeneration took 95 ms (1 blueprints)
+[2025.11.29-15.28.19:391][924]PIE: New page: PIE session: VictorianOffice (Nov 30, 2025, 5:28:19 AM)
+[2025.11.29-15.28.19:415][924]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.28.19:439][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024727s)
+[2025.11.29-15.28.19:439][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice to /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice (0.024864s)
+[2025.11.29-15.28.19:439][924]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2025.11.29-15.28.19:440][924]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.11.29-15.28.19:440][924]LogAIModule: Creating AISystem for world VictorianOffice
+[2025.11.29-15.28.19:440][924]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2025.11.29-15.28.19:474][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.11.29-15.28.19:475][924]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.11.29-15.28.19:475][924]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-15.28.19:475][924]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-15.28.19:475][924]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-15.28.19:475][924]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-15.28.19:475][924]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.11.29-15.28.19:475][924]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.11.29-15.28.19:475][924]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.11.29-15.28.19:475][924]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-15.28.19:476][924]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-15.28.19:476][924]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-15.28.19:476][924]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-15.28.19:478][924]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-15.28.19:517][924]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (NVIDIA High Definition Audio)
+[2025.11.29-15.28.19:517][924]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-15.28.19:517][924]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-15.28.19:517][924]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-15.28.19:517][924]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.11.29-15.28.19:517][924]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.11.29-15.28.19:519][924]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.11.29-15.28.19:519][924]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.11.29-15.28.19:519][924]LogInit: FAudioDevice initialized.
+[2025.11.29-15.28.19:519][924]LogAudio: Display: Audio Device (ID: 15) registered with world 'VictorianOffice'.
+[2025.11.29-15.28.19:535][924]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.29-15.28.19:542][924]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice.VictorianOffice up for play (max tick rate 0) at 2025.11.29-22.28.19
+[2025.11.29-15.28.19:542][924]LogWorld: Bringing up level for play took: 0.007264
+[2025.11.29-15.28.19:544][924]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.11.29-15.28.19:548][924]PIE: Server logged in
+[2025.11.29-15.28.19:548][924]PIE: Play in editor total start time 0.254 seconds.
+[2025.11.29-15.28.54:915][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.28.54:915][425]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_VictorianOffice
+[2025.11.29-15.28.54:915][425]LogWorld: UWorld::CleanupWorld for VictorianOffice, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-15.28.54:918][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.28.54:932][425]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-15.28.54:937][425]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-15.28.54:969][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-15.28.54:971][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.11.29-15.28.54:972][425]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.11.29-15.28.54:981][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.11.29-15.28.55:027][426]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.11.29-15.29.21:693][246]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.11.29-15.29.21:693][246]LogSavePackage: Moving 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Saved/BP_ThirdPersonCharacter60B548CF47A6EF958B7D3A8F9B9D1B18.tmp' to 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.11.29-15.29.21:718][246]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.11.29-15.29.21:718][246]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.11.29-15.29.23:718][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.11.29-15.29.23:787][407]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/VictorianOffice
+[2025.11.29-15.29.23:787][407]LogSavePackage: Moving 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Saved/VictorianOffice97C42881403C3FA850F9E19E093E40E0.tmp' to 'C:/Users/ADMIN/Documents/GitHub/sgbb-vcs-training-2025/Victorian_Office/Content/ThirdPerson/Maps/VictorianOffice.umap'
+[2025.11.29-15.29.23:799][407]LogFileHelpers: No new changes to save!
+[2025.11.29-15.29.23:816][407]AssetCheck: New page: Asset Save: VictorianOffice
+[2025.11.29-15.29.23:816][407]LogContentValidation: Display: Validating World /Game/ThirdPerson/Maps/VictorianOffice.VictorianOffice
